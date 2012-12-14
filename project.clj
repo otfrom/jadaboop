@@ -7,7 +7,7 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [cascalog "1.10.0"]
                  ;; Cascalog JDBC tap
-                 [com.twitter/maple "0.2.2"]
+                 [com.twitter/maple "0.2.5"]
                  ;; JDBC driver for postgres
                  [postgresql/postgresql "9.1-901.jdbc4"]
                  ;; Command line args processing
