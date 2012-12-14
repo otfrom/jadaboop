@@ -10,6 +10,8 @@
                  [com.twitter/maple "0.2.5"]
                  ;; JDBC driver for postgres
                  [postgresql/postgresql "9.1-901.jdbc4"]
+                 ;; JDBC driver for mysql
+                 [mysql/mysql-connector-java "5.1.22"]
                  ;; Command line args processing
                  [org.clojure/tools.cli "0.2.1"]]
   :profiles {:dev
