@@ -14,6 +14,7 @@
                  [mysql/mysql-connector-java "5.1.22"]
                  ;; Command line args processing
                  [org.clojure/tools.cli "0.2.1"]]
+  :main jadaboop.core
   :profiles {:dev
              {:dependencies [[org.apache.hadoop/hadoop-core "0.20.2-dev"]
                              [midje-cascalog "0.4.0"]
