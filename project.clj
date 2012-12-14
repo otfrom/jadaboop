@@ -7,11 +7,14 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [cascalog "1.10.0"]
                  ;; Cascalog JDBC tap
-                 [com.twitter/maple "0.2.2"]
+                 [com.twitter/maple "0.2.5"]
                  ;; JDBC driver for postgres
                  [postgresql/postgresql "9.1-901.jdbc4"]
+                 ;; JDBC driver for mysql
+                 [mysql/mysql-connector-java "5.1.22"]
                  ;; Command line args processing
                  [org.clojure/tools.cli "0.2.1"]]
+  :main jadaboop.core
   :profiles {:dev
              {:dependencies [[org.apache.hadoop/hadoop-core "0.20.2-dev"]
                              [midje-cascalog "0.4.0"]

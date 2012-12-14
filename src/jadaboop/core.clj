@@ -26,11 +26,17 @@
                       "<username>"
                       "<password>"
                       "org.postgresql.Driver"
-                      ;;"com.mysql.jdbc.Driver"
                       table-desc
                       scheme)]
+        ;; For mysql, uncomment these lines
+        ;; tap (JDBCTap. "jdbc:mysql://localhost:3306/bld"
+        ;;              "<username>"
+        ;;              "<password>"
+        ;;              "com.mysql.jdbc.Driver"
+        ;;              table-desc
+        ;;              scheme)]
     tap))
- 
+
 (defn -main []
   (?<-
    (db-tap)
